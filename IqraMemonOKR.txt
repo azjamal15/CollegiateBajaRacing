@@ -1,0 +1,6 @@
+Schedule and deliverable:  
+  *Create Design Document on Google Drive and share with team -- By Monday at midnight (estimate: 90 minutes)
+  *Create GitHub issue bug tracker -- By Monday at midnight (estimate: 10 minutes)
+  *Create folder for Prototype, Document, Pitch and other necessary documents and share with team -- 
+   By Monday at 10pm (estimate: 5 minutes)
+  *Develope the game prototype with team -- By Wednesday before class at 4pm (estimate: 4 hours)
