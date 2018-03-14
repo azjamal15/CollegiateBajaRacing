@@ -1,0 +1,25 @@
+Schedule and deliverable: 
+	
+	*create Discord account and add group members to server — Monday by 	10am (estimate: 10 minutes) 
+	
+	*Create GitHub repository for game - Monday by 10pm 
+	(estimate: 5 minutes) 
+	
+	*Create an issue for bug tracker —- Monday by 11:59pm
+	(estimate: 5 minutes)
+	
+	*Start development of game 
+		-Create course, add textures, and create the car (have car 		 sounds and movement working) — Tuesday by 6pm 
+		 (estimate: 1.5 hours)  
+		- Draft code for AI movement — Tuesday by 6pm
+		 (estimate: 1-2 hours) 
+			
+		 
+
+
+
+
+
+
+
+
