@@ -1,0 +1,7 @@
+Schedule and deliverable:  
+  *Create Contribute to the Desgin Document on Google Drive -- By Monday at midnight (estimate: 90 minutes)
+  *Create GitHub issue in the bug tracker -- By Monday at midnight (estimate: 10 minutes)
+  *Create this Document -- By Tuesday at midnight (estimate: 10mins)
+  *Finish the demo track -- By Wensday (estimate: 1.5hrs)
+  *Create a stable camera -- By Wensday morning (estimate: 1hr)
+  *Create lap triggers -- By Wensday morning (estimate: 1hr)
