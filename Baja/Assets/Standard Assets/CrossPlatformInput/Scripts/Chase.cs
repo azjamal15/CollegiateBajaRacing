@@ -17,7 +17,7 @@ public class Chase : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
     
             Vector3 direction = player.position - this.transform.position;

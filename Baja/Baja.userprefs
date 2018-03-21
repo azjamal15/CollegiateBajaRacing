@@ -1,6 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ToucanController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ToucanController.cs" Line="53" Column="2" />
+      <File FileName="Assets/Scripts/ToucanFlocking.cs" Line="7" Column="30" />
+      <File FileName="Assets/Scripts/ToucanWatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AICar_1Tracker.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/Chase.cs" Line="20" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: b2c6eae52f23fa844b9e10862456a04f
+timeCreated: 1497679075
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: Bone
+    100004: Bone.Top
+    100006: fingers_left_back
+    100008: fingers_left_back.001
+    100010: fingers_left_back.001_end
+    100012: fingers_left_front
+    100014: fingers_left_front.001
+    100016: fingers_left_front.001_end
+    100018: fingers_right_back
+    100020: fingers_right_back.001
+    100022: fingers_right_back.001_end
+    100024: fingers_right_front
+    100026: fingers_right_front.001
+    100028: fingers_right_front.001_end
+    100030: head
+    100032: head_end
+    100034: leg_left
+    100036: leg_left.001
+    100038: leg_right
+    100040: leg_right.001
+    100042: neck
+    100044: shoulder_left
+    100046: shoulder_right
+    100048: tail
+    100050: tail_end
+    100052: //RootNode
+    100054: toucan
+    100056: wing_left
+    100058: wing_left.001
+    100060: wing_left.001_end
+    100062: wing_right
+    100064: wing_right.001
+    100066: wing_right.001_end
+    400000: body
+    400002: Bone
+    400004: Bone.Top
+    400006: fingers_left_back
+    400008: fingers_left_back.001
+    400010: fingers_left_back.001_end
+    400012: fingers_left_front
+    400014: fingers_left_front.001
+    400016: fingers_left_front.001_end
+    400018: fingers_right_back
+    400020: fingers_right_back.001
+    400022: fingers_right_back.001_end
+    400024: fingers_right_front
+    400026: fingers_right_front.001
+    400028: fingers_right_front.001_end
+    400030: head
+    400032: head_end
+    400034: leg_left
+    400036: leg_left.001
+    400038: leg_right
+    400040: leg_right.001
+    400042: neck
+    400044: shoulder_left
+    400046: shoulder_right
+    400048: tail
+    400050: tail_end
+    400052: //RootNode
+    400054: toucan
+    400056: wing_left
+    400058: wing_left.001
+    400060: wing_left.001_end
+    400062: wing_right
+    400064: wing_right.001
+    400066: wing_right.001_end
+    4300000: toucan
+    7400000: Bone|Flying
+    9500000: //RootNode
+    11100000: toucan
+    13700000: toucan
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bone|Flying
+      takeName: Bone|Flying
+      firstFrame: 20
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone
+        weight: 1
+      - path: Bone/Bone.Top
+        weight: 1
+      - path: Bone/Bone.Top/body
+        weight: 1
+      - path: Bone/Bone.Top/body/tail
+        weight: 1
+      - path: Bone/Bone.Top/body/tail/tail_end
+        weight: 1
+      - path: Bone/Bone.Top/leg_left
+        weight: 1
+      - path: Bone/Bone.Top/leg_left/leg_left.001
+        weight: 1
+      - path: Bone/Bone.Top/leg_left/leg_left.001/fingers_left_back
+        weight: 1
+      - path: Bone/Bone.Top/leg_left/leg_left.001/fingers_left_back/fingers_left_back.001
+        weight: 1
+      - path: Bone/Bone.Top/leg_left/leg_left.001/fingers_left_back/fingers_left_back.001/fingers_left_back.001_end
+        weight: 1
+      - path: Bone/Bone.Top/leg_left/leg_left.001/fingers_left_front
+        weight: 1
+      - path: Bone/Bone.Top/leg_left/leg_left.001/fingers_left_front/fingers_left_front.001
+        weight: 1
+      - path: Bone/Bone.Top/leg_left/leg_left.001/fingers_left_front/fingers_left_front.001/fingers_left_front.001_end
+        weight: 1
+      - path: Bone/Bone.Top/leg_right
+        weight: 1
+      - path: Bone/Bone.Top/leg_right/leg_right.001
+        weight: 1
+      - path: Bone/Bone.Top/leg_right/leg_right.001/fingers_right_back
+        weight: 1
+      - path: Bone/Bone.Top/leg_right/leg_right.001/fingers_right_back/fingers_right_back.001
+        weight: 1
+      - path: Bone/Bone.Top/leg_right/leg_right.001/fingers_right_back/fingers_right_back.001/fingers_right_back.001_end
+        weight: 1
+      - path: Bone/Bone.Top/leg_right/leg_right.001/fingers_right_front
+        weight: 1
+      - path: Bone/Bone.Top/leg_right/leg_right.001/fingers_right_front/fingers_right_front.001
+        weight: 1
+      - path: Bone/Bone.Top/leg_right/leg_right.001/fingers_right_front/fingers_right_front.001/fingers_right_front.001_end
+        weight: 1
+      - path: Bone/Bone.Top/neck
+        weight: 1
+      - path: Bone/Bone.Top/neck/head
+        weight: 1
+      - path: Bone/Bone.Top/neck/head/head_end
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_left
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_left/wing_left
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_left/wing_left/wing_left.001
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_left/wing_left/wing_left.001/wing_left.001_end
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_right
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_right/wing_right
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_right/wing_right/wing_right.001
+        weight: 1
+      - path: Bone/Bone.Top/shoulder_right/wing_right/wing_right.001/wing_right.001_end
+        weight: 1
+      - path: toucan
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
