@@ -20,5 +20,9 @@ public class ButtonOptions : MonoBehaviour {
 		SceneManager.LoadScene (3); 
 	}
 
+	public void RestartGame() { 
+		SceneManager.LoadScene (1);
+	}
+
 
 }
