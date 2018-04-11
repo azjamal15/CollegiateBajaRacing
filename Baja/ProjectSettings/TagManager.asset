@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AICar01
   - toucan1
+  - AICar02
   layers:
   - Default
   - TransparentFX

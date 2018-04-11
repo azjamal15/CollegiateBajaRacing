@@ -6,6 +6,7 @@ using UnityEngine;
 public class AICar_1Tracker : MonoBehaviour {
 
 	public GameObject theTracker; 
+	public GameObject theTracker2;
 	public GameObject wp1; 
 	public GameObject wp2; 
 	public GameObject wp3;
@@ -16,6 +17,7 @@ public class AICar_1Tracker : MonoBehaviour {
 	public GameObject wp8; 
 
 	public int wpTracker;
+	public int wpTracker2;
 
 	void Update() { 
 
@@ -46,6 +48,32 @@ public class AICar_1Tracker : MonoBehaviour {
 			theTracker.transform.position = wp8.transform.position;
 		} 
 
+		if (wpTracker == 0) {  
+			theTracker2.transform.position = wp1.transform.position;
+
+		}
+		if (wpTracker2 == 1) {
+			theTracker2.transform.position = wp2.transform.position;
+		}
+		if (wpTracker2 == 2) {
+			theTracker2.transform.position = wp3.transform.position;
+		}
+		if (wpTracker2 == 3) {
+			theTracker2.transform.position = wp4.transform.position;
+		}
+		if (wpTracker2 == 4) {
+			theTracker2.transform.position = wp5.transform.position;
+		}
+		if (wpTracker2 == 5) {
+			theTracker2.transform.position = wp6.transform.position;
+		}
+		if (wpTracker2 == 6) {
+			theTracker2.transform.position = wp7.transform.position;
+		}
+		if (wpTracker2 == 7) { 
+			theTracker2.transform.position = wp8.transform.position;
+		} 
+
 
 	} //end Update() 
 
@@ -57,6 +85,18 @@ public class AICar_1Tracker : MonoBehaviour {
 
 			if (wpTracker == 8) {
 				wpTracker = 0; 
+			}
+
+			yield return new WaitForSeconds (1); 
+			this.GetComponent<BoxCollider> ().enabled = true; 
+		}
+
+		if (collision.gameObject.tag == "AICar02") { 
+			this.GetComponent<BoxCollider> ().enabled = false;
+			wpTracker2 += 1; 
+
+			if (wpTracker2 == 8) {
+				wpTracker2 = 0; 
 			}
 
 			yield return new WaitForSeconds (1); 
