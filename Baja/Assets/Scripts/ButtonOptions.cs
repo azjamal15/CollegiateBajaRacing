@@ -24,5 +24,9 @@ public class ButtonOptions : MonoBehaviour {
 		SceneManager.LoadScene (1);
 	}
 
+	public void ExitGame() { 
+		SceneManager.LoadScene (4);
+	}
+
 
 }
