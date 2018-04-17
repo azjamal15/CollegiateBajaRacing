@@ -12,6 +12,7 @@ public class CountDown : MonoBehaviour {
 	public GameObject control; //for car controller 
 	public GameObject AIControl; //for AI Car Controller
 	public GameObject AIControl2; //for other AI Car controller 
+	public AudioSource ChaLa; //Adding music to level :) #DBZ
 
 	void Start () {
 		StartCoroutine (CountStart ());
@@ -20,7 +21,7 @@ public class CountDown : MonoBehaviour {
 	
 	/* Starts the counter */
 	IEnumerator CountStart() { 
-
+		 
 		AIControl2.SetActive (false);
 		yield return new WaitForSeconds (0.5f); 
 		countDown.GetComponent<Text> ().text = "3";
@@ -44,9 +45,11 @@ public class CountDown : MonoBehaviour {
 		//countDown.GetComponent<Text> ().text = "GO!"; 
 		go.Play ();
 
+		ChaLa.Play ();
 		timer.SetActive (true);
 		control.SetActive (true);
 		AIControl.SetActive (true);
 		AIControl2.SetActive (true);
+
 	} 
 }

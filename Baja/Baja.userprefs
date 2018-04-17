@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CarControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LapManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/LapManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CountDown.cs" Line="4" Column="23" />
-      <File FileName="Assets/Scripts/CarControl.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/LapManager.cs" Line="19" Column="46" />
+      <File FileName="Assets/Scripts/CountDown.cs" Line="23" Column="4" />
+      <File FileName="Assets/Scripts/CarControl.cs" Line="15" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
