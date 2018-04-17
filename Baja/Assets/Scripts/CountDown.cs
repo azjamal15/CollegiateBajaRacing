@@ -10,6 +10,8 @@ public class CountDown : MonoBehaviour {
 	public AudioSource ready;  //variable for 'GetReady.wav' 
 	public GameObject timer;   //timer for lap 
 	public GameObject control; //for car controller 
+	public GameObject AIControl; //for AI Car Controller
+	public GameObject AIControl2; //for other AI Car controller 
 
 	void Start () {
 		StartCoroutine (CountStart ());
@@ -18,6 +20,8 @@ public class CountDown : MonoBehaviour {
 	
 	/* Starts the counter */
 	IEnumerator CountStart() { 
+
+		AIControl2.SetActive (false);
 		yield return new WaitForSeconds (0.5f); 
 		countDown.GetComponent<Text> ().text = "3";
 		ready.Play ();
@@ -37,10 +41,12 @@ public class CountDown : MonoBehaviour {
 
 		yield return new WaitForSeconds (1);
 		countDown.SetActive (false);
-		countDown.GetComponent<Text> ().text = "GO!"; 
+		//countDown.GetComponent<Text> ().text = "GO!"; 
 		go.Play ();
 
 		timer.SetActive (true);
 		control.SetActive (true);
+		AIControl.SetActive (true);
+		AIControl2.SetActive (true);
 	} 
 }
