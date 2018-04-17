@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI; 
 
 public class CompleteLap : MonoBehaviour {
-
+	
 	public GameObject midwayTrigger;
 	public GameObject lapCompleteTrigger; 
 
@@ -14,7 +14,11 @@ public class CompleteLap : MonoBehaviour {
 
 	public GameObject lapBox; 
 
+	public GameObject lapCount;
+	public int lapComplete; 
+
 	void OnTriggerEnter() { 
+		lapComplete += 1; 
 		if (LapManager.SecondCount <= 9) { 
 			secDisplay.GetComponent<Text> ().text = "0" + LapManager.SecondCount + ".";
 		} 
@@ -28,6 +32,18 @@ public class CompleteLap : MonoBehaviour {
 		else { 
 			minDisplay.GetComponent<Text> ().text = "" + LapManager.MinuteCount + "."; 
 		}
+
+		milliDisplay.GetComponent<Text> ().text = "" + LapManager.MilliCount + ".";
+
+		LapManager.MinuteCount = 0; 
+		LapManager.SecondCount = 0; 
+		LapManager.MilliCount = 0;
+
+		lapCount.GetComponent<Text> ().text = "" + lapComplete; 
+
+		midwayTrigger.SetActive (true); 
+		lapCompleteTrigger.SetActive (false);
+
 
 
 	} 

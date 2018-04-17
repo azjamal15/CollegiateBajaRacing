@@ -22,7 +22,7 @@ public class CountDown : MonoBehaviour {
 	/* Starts the counter */
 	IEnumerator CountStart() { 
 		 
-		AIControl2.SetActive (false);
+		//AIControl2.SetActive (false);
 		yield return new WaitForSeconds (0.5f); 
 		countDown.GetComponent<Text> ().text = "3";
 		ready.Play ();
