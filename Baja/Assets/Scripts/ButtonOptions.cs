@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ButtonOptions : MonoBehaviour {
 
+	void Start() { 
+		AudioListener.volume = 0.25f;
+
+	}
+
 	/* Button Options for Main Menu */
 
 	public void PlayGame () { 

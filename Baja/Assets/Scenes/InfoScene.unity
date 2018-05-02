@@ -407,10 +407,10 @@ MonoBehaviour:
   theText: {fileID: 1182924384}
   strings:
   - The day has finally come....
-  - the day YOU and your Collegiate Baja racing team qualify for the ultimate Baja
+  - The day you and your collegiate baja racing team qualify for the ultimate Baja
     race of the year.
-  - It is an annual event that few get selected to participate in, and this year,
-    you are participating.
+  - It is a big event that few get selected to participate in, and this year, you
+    are participating.
   - The competition is ruthless, and you and your team need to find a way to win this
     race and bring glory to your name!
   - Can you do it? Press Start!
@@ -610,7 +610,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cc86921bd9c3f4112a6d17a2754732ff, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -988,8 +988,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -105.29999, y: 26}
-  m_SizeDelta: {x: 195.40002, y: 30}
+  m_AnchoredPosition: {x: -121.85, y: 26}
+  m_SizeDelta: {x: 228.5, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1502217735
 MonoBehaviour:
