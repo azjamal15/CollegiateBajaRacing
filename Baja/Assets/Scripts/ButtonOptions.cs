@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement; 
 
 public class ButtonOptions : MonoBehaviour {
+
+	/* Button Options for Main Menu */
+
 	public void PlayGame () { 
 		SceneManager.LoadScene(1);
 	}
 
-	public void Menu() { 
-		SceneManager.LoadScene (0); 
-	}
+
 
 	public void Info1 () { 
 		SceneManager.LoadScene (2);
@@ -28,8 +29,20 @@ public class ButtonOptions : MonoBehaviour {
 		SceneManager.LoadScene (5);
 	}
 
-	public void ExitGame() { 
+	public void Credits() { 
 		SceneManager.LoadScene (4);
+	}
+
+	public void ExitGame() { 
+		//SceneManager.LoadScene (4);
+		Application.Quit();
+	}
+
+
+	/* Button Options for outside of Main */ 
+
+	public void Menu() { 
+		SceneManager.LoadScene (0); 
 	}
 
 
