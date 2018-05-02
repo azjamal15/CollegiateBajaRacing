@@ -1414,7 +1414,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 142070247
+  randomSeed: -1270545214
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5637,7 +5637,7 @@ GameObject:
   - component: {fileID: 449832594}
   - component: {fileID: 449832600}
   m_Layer: 0
-  m_Name: CarWaypointBased
+  m_Name: AIWayPoint_Car
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9711,6 +9711,10 @@ Prefab:
       propertyPath: engineSoundStyle
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 2}
+      propertyPath: m_Name
+      value: PlayerCar
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 2}
   m_IsPrefabParent: 0
@@ -11671,7 +11675,7 @@ GameObject:
   - component: {fileID: 1801817778}
   - component: {fileID: 1801817777}
   m_Layer: 0
-  m_Name: CarWaypointBased (1)
+  m_Name: AIWayPoint_Car2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15635,7 +15639,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1889743184}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

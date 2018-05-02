@@ -22,11 +22,11 @@ public class ButtonOptions : MonoBehaviour {
 	}
 
 	public void Controls() { 
-		SceneManager.LoadScene (5);
+		SceneManager.LoadScene (4);
 	}
 
 	public void Credits() { 
-		SceneManager.LoadScene (4);
+		SceneManager.LoadScene (3);
 	}
 
 	public void ExitGame() { 
