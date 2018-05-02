@@ -19,7 +19,13 @@ public class AICar_1Tracker : MonoBehaviour {
 	public int wpTracker;
 	public int wpTracker2;
 
+	void Start() { 
+		AudioListener.volume = 0.25f;
+
+	}
+
 	void Update() { 
+
 
 		//Debug.Log ("Test"); 
 		if (wpTracker == 0) {  
