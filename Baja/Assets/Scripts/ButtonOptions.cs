@@ -16,11 +16,7 @@ public class ButtonOptions : MonoBehaviour {
 	public void Info1 () { 
 		SceneManager.LoadScene (2);
 	}
-
-	public void Info2 () { 
-		SceneManager.LoadScene (3); 
-	}
-
+		
 	public void RestartGame() { 
 		SceneManager.LoadScene (1);
 	}
